@@ -33,4 +33,8 @@ class Song
     end
     artists_no_dup
   end
+  
+  def self.genre_count
+    
+  end
 end
