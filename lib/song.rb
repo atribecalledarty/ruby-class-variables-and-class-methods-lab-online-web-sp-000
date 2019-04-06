@@ -3,6 +3,7 @@ class Song
   
   @@count = 0
   @@genres = []
+  @@artists = []
   
   def initialize(name, artist, genre)
     @name = name
@@ -22,5 +23,9 @@ class Song
       genres_no_dup << genre if !genres_no_dup.include?(genre)
     end
     genres_no_dup
+  end
+  
+  def self.artists
+    
   end
 end
