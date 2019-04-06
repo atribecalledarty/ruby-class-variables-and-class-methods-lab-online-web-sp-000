@@ -35,7 +35,10 @@ class Song
   end
   
   def self.genre_count
+    array_of_genres = []
     genre_hash = {}
-    
+    @@genres.each do |genre|
+      
+    end
   end
 end
