@@ -28,9 +28,9 @@ class Song
   
   def self.artists
     artists_no_dup = []
-    @@genres.each do |genre|
-      genres_no_dup << genre if !genres_no_dup.include?(genre)
+    @@artists.each do |artist|
+      artists_no_dup << artist if !artists_no_dup.include?(artist)
     end
-    genres_no_dup
+    artists_no_dup
   end
 end
