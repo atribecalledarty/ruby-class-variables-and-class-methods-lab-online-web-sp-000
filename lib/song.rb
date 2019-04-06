@@ -17,6 +17,9 @@ class Song
   end
   
   def self.genres
-    
+    genres_no_dup = []
+    @@genres.each do |genre|
+      genres_no_dup << genre if !genres_no_dup.include?(genre)
+    end
   end
 end
