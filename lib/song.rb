@@ -38,10 +38,10 @@ class Song
     array_of_genres = self.genres
     genre_hash = {}
     array_of_genres.each do |genre|
-      genre_hash["#{genre}"] = 0
+      genre_hash[genre] = 0
     end
     @@genres.each do |genre|
-      
+      genre_hash[]
     end
   end
 end
